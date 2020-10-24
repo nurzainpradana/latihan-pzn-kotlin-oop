@@ -1,3 +1,8 @@
 package data
 
-class Person
+class Person{
+    var firstName: String = ""
+    //val firstName: String = "" 
+    var middleName: String? = null
+    var lastName: String = ""
+}
