@@ -11,7 +11,7 @@ fun main() {
     joko.firstName = "Joko"
 
     val budi = Person()
-    budi.firstName = "Budi"
+    joko.firstName = "Budi"
 
     println(eko.firstName)
     println(joko.firstName)
