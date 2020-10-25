@@ -14,8 +14,9 @@ class Person{
         println("Hello $name, my name is $firstName")
     }
 
-    fun sayHello(firstNameParam: String, lastNameParam: String): Unit{
-        println("Hello $firstNameParam, my name is $lastNameParam")
+    fun sayHello(firstName: String, lastName: String): Unit{
+        println("Hello $firstName $lastName, my name is $lastName")
+        println("Hello ${this.firstName} ${this.lastName}, my name is ${this.lastName}")
     }
 
     fun run(){
